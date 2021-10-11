@@ -18,11 +18,13 @@
 - 목숨 3개를 모두 소진하면 게임 오버되며, 15 단계의 미션을 모두 통과하면 게임 클리어입니다.
 
 # 게임 화면
-![BabyFish 게임화면](https://user-images.githubusercontent.com/77092257/136759855-1ec0db79-8705-4577-931d-d6d971a38956.png)
+![BabyFish 게임화면](https://user-images.githubusercontent.com/77092257/136763308-d4477589-cd32-451f-a192-38c738b3b976.png)
+
 - 특정 레벨에서는 치료제가 스폰됩니다.
 - 치료제를 먹으면 캐릭터의 목숨이 모두 회복됩니다.
 
 # 게임 종료
 ![BabyFish 게임오버](https://user-images.githubusercontent.com/77092257/136758632-3718ab03-276d-450c-9750-a6b3187f2076.png)
+
 - 게임 오버 또는 클리어 창에서 자신의 현재 점수와 최고 점수를 확인할 수 있습니다.
 - 15 레벨을 모두 통과해서, Baby Fish가 바다의 왕이 될 수 있도록 도와주세요~!
