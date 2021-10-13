@@ -25,6 +25,7 @@
 
 # 게임 종료
 ![BabyFish 게임오버](https://user-images.githubusercontent.com/77092257/136758632-3718ab03-276d-450c-9750-a6b3187f2076.png)
+![BabyFish 게임클리어](https://user-images.githubusercontent.com/77092257/137109386-d44be9cf-a785-4703-a6c9-646cb903779a.png)
 
 - 게임 오버 또는 클리어 창에서 자신의 현재 점수와 최고 점수를 확인할 수 있습니다.
 - 15 레벨을 모두 통과해서, Baby Fish가 바다의 왕이 될 수 있도록 도와주세요~!
