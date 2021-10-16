@@ -34,12 +34,14 @@ private:
 	int speed;
 	int fish_num;
 
-public:
 	int p[4][2]; //네 꼭지점
 
 public:
 	Fish();
 	Fish(string img_left, string img_right, int w, int h);
+
+	// 물고기 접촉 여부 판단
+	friend int IsContact(Fish& player_fish, Fish& obj_fish);
 
 	// 물고기 물체 생성
 	void create(string img_left, string img_right, int w, int h);

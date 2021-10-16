@@ -2,25 +2,24 @@
 
 extern ScenePtr gameplay;
 
-Fish::Fish() {
-	normal_left = "\0";
-	normal_right = "\0";
+Fish::Fish()
+	: normal_left("\0"), normal_right("\0"), true_width(0), true_height(0) {
+	true_area_w = true_width;
+	true_area_h = true_height;
+	width = true_width;
+	height = true_height;
+	area_w = true_area_w;
+	area_h = true_area_h;
+	current_right = normal_right;
+	current_left = normal_left;
+
+	x = 0 - width;
+	y = 680;
+
 	eat_left = "\0";
 	eat_right = "\0";
 	damaged_left = "\0";
 	damaged_right = "\0";
-	current_left = "\0";
-	current_right = "\0";
-	x = 0;
-	y = 0;
-	width = 0;
-	height = 0;
-	area_w = 0;
-	area_h = 0;
-	true_width = width;
-	true_height = height;
-	true_area_w = area_w;
-	true_area_h = area_h;
 	moving = false;
 	target = false;
 	player = false;
@@ -31,13 +30,10 @@ Fish::Fish() {
 	fish_num = 0;
 }
 
-Fish::Fish(string img_left, string img_right, int w, int h) {
-	normal_left = img_left;
-	normal_right = img_right;
-	true_width = w;
-	true_height = h;
-	true_area_w = w;
-	true_area_h = h;
+Fish::Fish(string img_left, string img_right, int w, int h)
+	: normal_left(img_left), normal_right(img_right), true_width(w), true_height(h) {
+	true_area_w = true_width;
+	true_area_h = true_height;
 	width = true_width;
 	height = true_height;
 	area_w = true_area_w;

@@ -1,12 +1,9 @@
 #include "number.h"
 
-Number::Number() {
-	num = 0;
-}
+Number::Number() : num(0) {}
 
-Number::Number(ScenePtr scene, int x, int y) {
+Number::Number(ScenePtr scene, int x, int y) : num(0) {
 	card = Object::create("Images/0.png", scene, x, y, true);
-	num = 0;
 }
 
 void Number::create(ScenePtr scene, int x, int y) {
